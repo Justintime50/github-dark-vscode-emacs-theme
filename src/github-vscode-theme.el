@@ -3,7 +3,7 @@
 ;; Copyright (C) 2021, Justintime50
 
 ;; Author: Justintime50
-;; Version: 0.1.0
+;; Version: 0.2.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
@@ -17,17 +17,17 @@
        (fg4 "#abadb0")
        ; bg1 intended color, not supported in terminal, only in GUI: #25292e
        (bg1 "#121212") ; current safe fallback color compatible with terminals
-       (bg2 "#363a3f")
-       (bg3 "#484b4f")
-       (bg4 "#595c60")
-       (builtin "#b292f4")
+       (bg2 "#252525")
+       (bg3 "#383838")
+       (bg4 "#4b4b4b")
+       (builtin "#729fdd")
        (keyword "#d46a76")
        (const   "#e1e4e8")
        (comment "#6b737e")
        (func    "#b292f4")
-       (str     "#98baed")
-       (type    "#d46a76")
-       (var     "#82b6ff")
+       (str     "#a4cbff")
+       (type    "#b292f4")
+       (var     "#e1e4e8")
        (warning "#ff0000")
        (warning2 "#ff8800"))
    (custom-theme-set-faces
