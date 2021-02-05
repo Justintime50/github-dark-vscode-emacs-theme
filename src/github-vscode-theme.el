@@ -3,8 +3,8 @@
 ;; Copyright (C) 2021, Justintime50
 
 ;; Author: Justintime50
-;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Version: 0.1.0
+;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 ;;; Code:
