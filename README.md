@@ -16,7 +16,7 @@ The [GitHub Visual Studio Code Theme](https://marketplace.visualstudio.com/items
 **Automated**
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/justintime50/github-vscode-emacs/main/src/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/justintime50/github-vscode-emacs/main/install.sh)
 ```
 
 **Manually**
