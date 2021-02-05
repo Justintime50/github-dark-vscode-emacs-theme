@@ -16,7 +16,7 @@
        (fg3 "#bdc0c3")
        (fg4 "#abadb0")
        ; bg1 intended color, not supported in terminal, only in GUI: #25292e
-       (bg1 "#000000") ; current safe fallback color compatible with terminals
+       (bg1 "#121212") ; current safe fallback color compatible with terminals
        (bg2 "#363a3f")
        (bg3 "#484b4f")
        (bg4 "#595c60")
