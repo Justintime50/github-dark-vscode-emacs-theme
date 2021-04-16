@@ -1,6 +1,6 @@
 <div align="center">
 
-# GitHub VS Code Emacs Theme
+# GitHub Dark Visual Studio Code Emacs Theme
 
 The [GitHub Dark Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) from Visual Studio Code ported to Emacs.
 
