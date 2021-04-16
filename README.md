@@ -2,12 +2,16 @@
 
 # GitHub VS Code Emacs Theme
 
-The [GitHub Visual Studio Code Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) ported to Emacs.
+The [GitHub Dark Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) from Visual Studio Code ported to Emacs.
 
-[![Build Status](https://github.com/Justintime50/github-vscode-emacs/workflows/build/badge.svg)](https://github.com/Justintime50/github-vscode-emacs/actions)
-[![Licence](https://img.shields.io/github/license/justintime50/github-vscode-emacs)](LICENSE)
+[![Build Status](https://github.com/Justintime50/github-dark-vscode-emacs-theme/workflows/build/badge.svg)](https://github.com/Justintime50/github-dark-vscode-emacs-theme/actions)
+[![Licence](https://img.shields.io/github/license/justintime50/github-dark-vscode-emacs-theme)](LICENSE)
 
 <img src="assets/showcase.png" alt="Showcase">
+
+## Color Palette
+
+<img src="assets/color_palette.png" alt="Color Palette">
 
 </div>
 
@@ -16,12 +20,12 @@ The [GitHub Visual Studio Code Theme](https://marketplace.visualstudio.com/items
 **Automated**
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/justintime50/github-vscode-emacs/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/justintime50/github-dark-vscode-emacs-theme/main/install.sh)
 ```
 
 **Manually**
 
-Add the `github-vscode-theme.el` file to `~/.emacs.d/themes`.
+Add the `github-dark-vscode-theme.el` file to `~/.emacs.d/themes`.
 
 **Enabling Theme**
 
@@ -29,5 +33,5 @@ Add the following to your `init.el` or `~/.emacs` file:
 
 ```lisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'github-vscode t)
+(load-theme 'github-dark-vscode t)
 ```

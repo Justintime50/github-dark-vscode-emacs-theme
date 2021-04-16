@@ -1,17 +1,18 @@
 #!/bin/bash
 
 THEMES_DIRECTORY="$HOME/.emacs.d/themes"
+THEME_FILE="github-dark-vscode-theme.el"
 
 main() {
-    echo "Installing github-vscode-theme.el..."
+    echo "Installing $THEME_FILE..."
     install_theme
     echo "Theme installed!"
 }
 
 install_theme() {
-    curl -LJOs https://raw.githubusercontent.com/Justintime50/github-vscode-emacs/main/src/github-vscode-theme.el
+    curl -LJOs https://raw.githubusercontent.com/Justintime50/github-dark-vscode-emacs-theme/main/src/"$THEME_FILE"
     mkdir -p "$THEMES_DIRECTORY" 
-    mv github-vscode-theme.el "$THEMES_DIRECTORY"
+    mv "$THEME_FILE" "$THEMES_DIRECTORY"
 }
 
 main
