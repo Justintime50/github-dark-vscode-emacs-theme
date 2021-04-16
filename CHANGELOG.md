@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.3.0 (2021-04-16)
+
+* Renamed the repo from `github-vscode-emacs` to `github-dark-vscode-emacs-theme`
+* Renamed theme from `github-vscode` to `github-dark-vscode`
+
 ## v0.2.0 (2021-02-05)
 
 * Added installation script

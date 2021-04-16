@@ -1,15 +1,15 @@
-;;; github-vscode-theme.el --- Theme 
+;;; github-dark-vscode-theme.el --- Theme 
 
 ;; Copyright (C) 2021, Justintime50
 
 ;; Author: Justintime50
-;; Version: 0.2.0
+;; Version: 0.3.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 ;;; Code:
 
- (deftheme github-vscode)
+ (deftheme github-dark-vscode)
  (let ((class '((class color) (min-colors 89)))
        (fg1 "#e1e4e8")
        (fg2 "#cfd2d5")
@@ -31,7 +31,7 @@
        (warning "#ff0000")
        (warning2 "#ff8800"))
    (custom-theme-set-faces
-   'github-vscode
+   'github-dark-vscode
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -227,13 +227,13 @@
   ;; emacs >= 26.1
   (when (>= emacs-major-version 26)
     (custom-theme-set-faces
-     'github-vscode
+     'github-dark-vscode
      `(line-number ((t (:inherit fringe))))
      `(line-number-current-line ((t (:inherit fringe :foreground "white" :weight bold))))))
   ;; emacs >= 27.1
   (when (>= emacs-major-version 27)
     (custom-theme-set-faces
-     'github-vscode
+     'github-dark-vscode
      `(line-number ((t (:background ,bg2 :foreground ,fg4))))
      `(line-number-current-line ((t (:background ,bg2 :foreground ,fg1))))
      `(tab-line ((,class (:inherit fringe :box (:line-width 4 :color ,bg2)))))
@@ -249,10 +249,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'github-vscode)
+(provide-theme 'github-dark-vscode)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; github-vscode-theme.el ends here
+;;; github-dark-vscode-theme.el ends here
