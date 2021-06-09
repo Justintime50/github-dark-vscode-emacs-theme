@@ -10,9 +10,8 @@ main() {
 }
 
 install_theme() {
-    curl -LJOs https://raw.githubusercontent.com/Justintime50/github-dark-vscode-emacs-theme/main/src/"$THEME_FILE"
-    mkdir -p "$THEMES_DIRECTORY" 
-    mv "$THEME_FILE" "$THEMES_DIRECTORY"
+    mkdir -p "$THEMES_DIRECTORY"
+    curl -LJs https://raw.githubusercontent.com/Justintime50/github-dark-vscode-emacs-theme/main/src/"$THEME_FILE" -o "$THEMES_DIRECTORY"
 }
 
 main
