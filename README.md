@@ -7,11 +7,11 @@ The [GitHub Dark Theme](https://marketplace.visualstudio.com/items?itemName=GitH
 [![Build Status](https://github.com/Justintime50/github-dark-vscode-emacs-theme/workflows/build/badge.svg)](https://github.com/Justintime50/github-dark-vscode-emacs-theme/actions)
 [![Licence](https://img.shields.io/github/license/justintime50/github-dark-vscode-emacs-theme)](LICENSE)
 
-<img src="assets/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/github-dark-vscode-emacs-theme/showcase.png" alt="Showcase">
 
 ## Color Palette
 
-<img src="assets/color_palette.png" alt="Color Palette">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/github-dark-vscode-emacs-theme/color_palette.png" alt="Color Palette">
 
 </div>
 
