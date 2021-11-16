@@ -15,6 +15,10 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+      - name: Setup Emacs
+        uses: purcell/setup-emacs@master
+        with:
+          version: 24.5
       - name: Lint Elisp
         uses: leotaku/elisp-check@master
         with:
