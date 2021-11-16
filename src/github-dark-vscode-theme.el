@@ -1,11 +1,17 @@
-;;; github-dark-vscode-theme.el --- Theme 
+;;; github-dark-vscode-theme.el --- Emacs Theme
 
 ;; Copyright (C) 2021, Justintime50
 
 ;; Author: Justintime50
+;; Keywords: faces
+;; Homepage: https://github.com/justintime50/github-dark-vscode-emacs-theme
 ;; Version: 0.3.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
+
+;;; Commentary:
+
+;; The GitHub Dark Theme from Visual Studio Code ported to Emacs.
 
 ;;; Code:
 
@@ -222,8 +228,7 @@
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
         `(jde-java-font-lock-modifier-face ((t (:foreground ,fg2))))
         `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
-        `(jde-java-font-lock-number-face ((t (:foreground ,var))))
-        )
+        `(jde-java-font-lock-number-face ((t (:foreground ,var)))))
   ;; emacs >= 26.1
   (when (>= emacs-major-version 26)
     (custom-theme-set-faces
@@ -240,9 +245,7 @@
      `(tab-line-tab ((,class (:inherit tab-line))))
      `(tab-line-tab-inactive ((,class (:inherit tab-line :foreground ,comment))))
      `(tab-line-tab-current  ((,class (:background ,bg4 :foreground ,fg1 :box (:line-width 4 :color ,bg4)))))
-     `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2 :box (:line-width 4 :color ,bg1)))))))
-
-   )
+     `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2 :box (:line-width 4 :color ,bg1))))))))
 
 ;;;###autoload
 (when load-file-name

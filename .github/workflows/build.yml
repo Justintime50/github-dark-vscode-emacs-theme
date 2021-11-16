@@ -10,3 +10,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@1.0.0
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Lint Elisp
+        uses: leotaku/elisp-check@master
+        with:
+          file: src/github-dark-vscode-theme.el
