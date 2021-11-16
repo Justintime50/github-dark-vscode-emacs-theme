@@ -27,7 +27,7 @@ bash <(curl -s https://raw.githubusercontent.com/justintime50/github-dark-vscode
 
 Add the `github-dark-vscode-theme.el` file to `~/.emacs.d/themes`.
 
-**Enabling Theme**
+### Enabling Theme
 
 Add the following to your `init.el` or `~/.emacs` file:
 
