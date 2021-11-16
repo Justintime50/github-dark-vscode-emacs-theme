@@ -125,7 +125,7 @@
         `(js3-function-param-face ((,class (:foreground ,fg2))))
         `(js3-jsdoc-tag-face ((,class (:foreground ,keyword))))
         `(js3-instance-member-face ((,class (:foreground ,const))))
-	`(warning ((,class (:foreground ,warning)))) 
+	`(warning ((,class (:foreground ,warning))))
 	`(ac-completion-face ((,class (:underline t :foreground ,keyword))))
 	`(info-quoted-name ((,class (:foreground ,builtin))))
 	`(info-string ((,class (:foreground ,str))))

@@ -25,4 +25,4 @@ jobs:
           check: melpa
           file: "src/*.el"
           ignore_warnings: false
-          warnings_as_errors: false
+          warnings_as_errors: true
