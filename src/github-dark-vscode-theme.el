@@ -254,4 +254,8 @@
 
 (provide-theme 'github-dark-vscode)
 
+;; Local Variables:
+;; no-byte-compile: t
+;; End:
+
 ;;; github-dark-vscode-theme.el ends here
