@@ -22,4 +22,7 @@ jobs:
       - name: Lint Elisp
         uses: leotaku/elisp-check@master
         with:
-          file: src/github-dark-vscode-theme.el
+          check: melpa
+          file: "*.el"
+          ignore_warnings: false
+          warnings_as_errors: true
