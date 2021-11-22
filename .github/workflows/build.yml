@@ -12,13 +12,25 @@ jobs:
         uses: ludeeus/action-shellcheck@1.0.0
   lint:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        emacs_version:
+          - 24.5
+          - 25.1
+          - 25.2
+          - 25.3
+          - 26.1
+          - 26.2
+          - 26.3
+          - 27.1
+          - 27.2
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Setup Emacs
         uses: purcell/setup-emacs@master
         with:
-          version: 24.5
+          version: ${{ matrix.emacs_version }}
       - name: Lint Elisp
         uses: leotaku/elisp-check@master
         with:
