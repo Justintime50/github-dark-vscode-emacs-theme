@@ -1,4 +1,4 @@
-;;; github-dark-vscode-theme.el --- The GitHub Dark Theme from Visual Studio Code ported to Emacs.
+;;; github-dark-vscode-theme.el --- The GitHub Dark Theme from Visual Studio Code
 
 ;; Copyright (C) 2021, Justintime50
 
