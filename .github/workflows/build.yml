@@ -23,6 +23,6 @@ jobs:
         uses: leotaku/elisp-check@master
         with:
           check: melpa
-          file: "src/*.el"
+          file: "*.el"
           ignore_warnings: false
           warnings_as_errors: true
