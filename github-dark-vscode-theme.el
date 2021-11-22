@@ -1,10 +1,11 @@
-;;; github-dark-vscode-theme.el --- Emacs Theme
+;;; github-dark-vscode-theme.el --- The GitHub Dark Theme from Visual Studio Code ported to Emacs.
 
 ;; Copyright (C) 2021, Justintime50
 
 ;; Author: Justintime50
 ;; Keywords: faces
 ;; Homepage: https://github.com/justintime50/github-dark-vscode-emacs-theme
+;; License: MIT
 ;; Version: 0.3.0
 ;; Package-Requires: ((emacs "24.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
@@ -12,6 +13,7 @@
 ;;; Commentary:
 
 ;; The GitHub Dark Theme from Visual Studio Code ported to Emacs.
+;; A simple theme with tasteful blues, reds, and purples that helps you focus on your code.
 
 ;;; Code:
 
@@ -21,8 +23,8 @@
        (fg2 "#cfd2d5")
        (fg3 "#bdc0c3")
        (fg4 "#abadb0")
-       ; bg1 intended color, not supported in terminal, only in GUI: #25292e
-       (bg1 "#121212") ; current safe fallback color compatible with terminals
+       ;; bg1 intended color, not supported in terminal, only in GUI: #25292e
+       (bg1 "#121212") ;; current safe fallback color compatible with terminals
        (bg2 "#252525")
        (bg3 "#383838")
        (bg4 "#4b4b4b")
