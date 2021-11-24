@@ -11,7 +11,7 @@ main() {
 
 install_theme() {
     mkdir -p "$THEMES_DIRECTORY"
-    curl -LJs https://raw.githubusercontent.com/Justintime50/github-dark-vscode-emacs-theme/main/"$THEME_FILE" > "$THEMES_DIRECTORY/$THEME_FILE"
+    curl -LJs https://raw.githubusercontent.com/Justintime50/github-dark-vscode-emacs-theme/main/"$THEME_FILE" >"$THEMES_DIRECTORY/$THEME_FILE"
 }
 
 main
