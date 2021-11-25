@@ -20,7 +20,7 @@ The [GitHub Dark Theme](https://marketplace.visualstudio.com/items?itemName=GitH
 **MELPA (Recommended)**
 
 1. Run `M-x package-install github-dark-vscode-theme` to install the theme
-1. Run `M-x theme-load github-dark-vscode-theme` to enable the theme for this session
+1. Run `M-x enable-theme github-dark-vscode-theme` to enable the theme for this session
 
 To enable the theme globally, see the `Enabling Theme` section below.
 
