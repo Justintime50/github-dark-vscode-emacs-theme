@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Run sh-checker
-        uses: luizm/action-sh-checker@master
+        uses: luizm/action-sh-checker@v0.3.0
         env:
           SHFMT_OPTS: -i 4 -d
   lint:
@@ -30,11 +30,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Setup Emacs
-        uses: purcell/setup-emacs@master
+        uses: purcell/setup-emacs@v3.0
         with:
           version: ${{ matrix.emacs_version }}
       - name: Lint Elisp
-        uses: leotaku/elisp-check@master
+        uses: leotaku/elisp-check@v1.2 # Newer versions break on older Emacs (eg: 24)
         with:
           check: melpa
           file: "*.el"
