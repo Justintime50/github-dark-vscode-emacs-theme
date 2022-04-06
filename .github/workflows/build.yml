@@ -17,15 +17,16 @@ jobs:
     strategy:
       matrix:
         emacs_version:
-          - 24.5
-          - 25.1
-          - 25.2
-          - 25.3
-          - 26.1
-          - 26.2
-          - 26.3
-          - 27.1
-          - 27.2
+          - "24.5"
+          - "25.1"
+          - "25.2"
+          - "25.3"
+          - "26.1"
+          - "26.2"
+          - "26.3"
+          - "27.1"
+          - "27.2"
+          - "28.1"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
