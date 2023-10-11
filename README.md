@@ -17,14 +17,14 @@ The [GitHub Dark Theme](https://marketplace.visualstudio.com/items?itemName=GitH
 
 ## Install
 
-**MELPA (Recommended)**
+### MELPA (Recommended)
 
 1. Run `M-x package-install github-dark-vscode-theme` to install the theme
 1. Run `M-x enable-theme github-dark-vscode-theme` to enable the theme for this session
 
 To enable the theme globally, see the `Enabling Theme` section below.
 
-**Automated**
+### Automated Script
 
 You can run the following script which will install the theme into `~/.emacs.d/themes` for you.
 
@@ -32,7 +32,7 @@ You can run the following script which will install the theme into `~/.emacs.d/t
 bash <(curl -s https://raw.githubusercontent.com/justintime50/github-dark-vscode-emacs-theme/main/install.sh)
 ```
 
-**Manually**
+### Manual Installation
 
 1. Add the `github-dark-vscode-theme.el` file to `~/.emacs.d/themes`.
 1. Add the following to your `init.el` or `~/.emacs` file:
