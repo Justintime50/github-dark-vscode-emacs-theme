@@ -6,8 +6,8 @@
 ;; Keywords: faces
 ;; Homepage: https://github.com/justintime50/github-dark-vscode-emacs-theme
 ;; License: MIT
-;; Version: 0.3.1
-;; Package-Requires: ((emacs "24.1"))
+;; Version: 0.4.0
+;; Package-Requires: ((emacs "25.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 ;;; Commentary:
@@ -248,6 +248,10 @@
      `(tab-line-tab-inactive ((,class (:inherit tab-line :foreground ,comment))))
      `(tab-line-tab-current  ((,class (:background ,bg4 :foreground ,fg1 :box (:line-width 4 :color ,bg4)))))
      `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2 :box (:line-width 4 :color ,bg1))))))))
+
+;; Check if the variable `byte-compile-last-position` is bound before using it
+(if (boundp 'byte-compile-last-position)
+    (setq byte-compile-last-position nil))
 
 ;;;###autoload
 (when load-file-name

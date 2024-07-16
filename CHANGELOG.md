@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.4.0 (2024-07-15)
+
+- Adds emacs `v29.1`, `v29.2`, `v29.3`, `v29.4` support
+  - Fixes an `elisp-check-byte-compile` error
+- Drops emacs `v24.x` support
+
 ## v0.3.1 (2022-03-13)
 
 - Corrects the cursor color from gray to white (closes #2)
