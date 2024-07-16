@@ -5,6 +5,7 @@
 The [GitHub Dark Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) from Visual Studio Code ported to Emacs.
 
 [![Build Status](https://github.com/Justintime50/github-dark-vscode-emacs-theme/workflows/build/badge.svg)](https://github.com/Justintime50/github-dark-vscode-emacs-theme/actions)
+[![Version](https://img.shields.io/github/v/tag/justintime50/github-dark-vscode-emacs-theme)](https://github.com/justintime50/github-dark-vscode-emacs-theme/releases)
 [![Licence](https://img.shields.io/github/license/justintime50/github-dark-vscode-emacs-theme)](LICENSE)
 
 <img src="https://raw.githubusercontent.com/justintime50/assets/main/src/github-dark-vscode-emacs-theme/showcase.png" alt="Showcase">
