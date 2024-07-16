@@ -15,7 +15,6 @@ jobs:
     strategy:
       matrix:
         emacs_version:
-          - '24.5'
           - '25.1'
           - '25.2'
           - '25.3'
@@ -31,11 +30,11 @@ jobs:
           - '29.3'
           - '29.4'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: purcell/setup-emacs@v6.0
         with:
           version: ${{ matrix.emacs_version }}
-      - uses: leotaku/elisp-check@v1.2 # Newer versions break on older Emacs (eg: 24)
+      - uses: leotaku/elisp-check@v1.4.0
         with:
           check: melpa
           file: '*.el'
