@@ -6,8 +6,8 @@
 ;; Keywords: faces
 ;; Homepage: https://github.com/justintime50/github-dark-vscode-emacs-theme
 ;; License: MIT
-;; Version: 0.3.1
-;; Package-Requires: ((emacs "24.1"))
+;; Version: 0.4.0
+;; Package-Requires: ((emacs "25.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 ;;; Commentary:
