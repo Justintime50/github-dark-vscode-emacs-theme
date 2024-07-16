@@ -249,15 +249,15 @@
      `(tab-line-tab-current  ((,class (:background ,bg4 :foreground ,fg1 :box (:line-width 4 :color ,bg4)))))
      `(tab-line-highlight    ((,class (:background ,bg1 :foreground ,fg2 :box (:line-width 4 :color ,bg1))))))))
 
+;; Check if the variable `byte-compile-last-position` is bound before using it
+(if (boundp 'byte-compile-last-position)
+    (setq byte-compile-last-position nil))
+
 ;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'github-dark-vscode)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
 
 ;;; github-dark-vscode-theme.el ends here
