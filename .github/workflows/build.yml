@@ -15,12 +15,13 @@ jobs:
     strategy:
       matrix:
         emacs_version:
-          - '25'
-          - '26'
-          - '27'
-          - '28'
-          - '29'
-          - '30'
+          # Test against the latest minor release of each major version
+          - '25.3'
+          - '26.3'
+          - '27.2'
+          - '28.2'
+          - '29.4'
+          - '30.2'
     steps:
       - uses: actions/checkout@v7
       - uses: purcell/setup-emacs@v8.0
