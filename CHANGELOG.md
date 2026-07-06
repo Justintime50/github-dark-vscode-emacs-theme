@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.5.0 (2026-07-06)
+
+- Adds support for emacs v30+
+  - Adds lexical binding
+
 ## v0.4.0 (2024-07-15)
 
 - Adds emacs `v29.1`, `v29.2`, `v29.3`, `v29.4` support

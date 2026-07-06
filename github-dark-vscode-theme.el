@@ -1,4 +1,4 @@
-;;; github-dark-vscode-theme.el --- The GitHub Dark Theme from Visual Studio Code
+;;; github-dark-vscode-theme.el --- The GitHub Dark Theme from Visual Studio Code  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021, Justintime50
 
@@ -6,7 +6,7 @@
 ;; Keywords: faces
 ;; Homepage: https://github.com/justintime50/github-dark-vscode-emacs-theme
 ;; License: MIT
-;; Version: 0.4.0
+;; Version: 0.5.0
 ;; Package-Requires: ((emacs "25.1"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
